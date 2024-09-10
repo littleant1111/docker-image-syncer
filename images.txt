@@ -3,9 +3,10 @@
 # alpine:3.20   
 #vulhub/zabbix:3.0.3-web
 #vulhub/zabbix:3.0.3-server
-amd64/buildpack-deps:buster-curl
+#amd64/buildpack-deps:buster-curl
+buildpack-deps:buster-curl
 
 #支持指定架构
 #--platform=linux/amd64 vulhub/zabbix:3.0.3-server
---platform=linux/arm64 amd64/buildpack-deps:buster-curl
+--platform=linux/arm64 buildpack-deps:buster-curl
 
