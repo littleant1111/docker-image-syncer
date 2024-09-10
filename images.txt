@@ -4,9 +4,10 @@
 #vulhub/zabbix:3.0.3-web
 #vulhub/zabbix:3.0.3-server
 #amd64/buildpack-deps:buster-curl
-buildpack-deps:buster-curl
+#buildpack-deps:buster-curl
+adoptopenjdk/openjdk8:jre8u372-b07
 
 #支持指定架构
 #--platform=linux/amd64 vulhub/zabbix:3.0.3-server
---platform=linux/arm64 buildpack-deps:buster-curl
-
+#--platform=linux/arm64 buildpack-deps:buster-curl
+--platform=linux/arm64 adoptopenjdk/openjdk8:jre8u372-b07
