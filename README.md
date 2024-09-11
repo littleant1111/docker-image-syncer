@@ -28,3 +28,7 @@ golang:1.22.4-alpine3.20
 --platform=linux/amd64 alpine:3.20
 --platform=linux/arm64 alpine:3.20
 ```
+
+ARM 平台拉取有问题！！！！
+
+
